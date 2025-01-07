@@ -1,0 +1,17 @@
+dataset:
+  name: MNIST
+  dataset_dir: '/root/ZYM/zym/AI_S/MNIST/backdoor_data/'
+  image_size: 28
+  n_channels: 3
+  n_classes: 10
+  labels: ['0','1','2','3','4','5','6','7','8','9']
+augmentation:
+  use_random_crop: True
+  use_random_horizontal_flip: False
+  use_cutout: False
+  use_random_erasing: False
+  use_dual_cutout: False
+  use_mixup: False
+  use_ricap: False
+  use_cutmix: True
+  use_label_smoothing: False
