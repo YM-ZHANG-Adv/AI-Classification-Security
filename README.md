@@ -19,7 +19,7 @@ For this task, according to the [paper](https://arxiv.org/abs/1708.06733) there'
 [DeepSigns](https://dl.acm.org/doi/abs/10.1145/3297858.3304051) method need retrain the model and need an isolate project matrix to extract the watermark information in target feature layer, whose path is `./watermark/projection_matrix.npy`,and the complete code is in `watermark.ipynb`.  
 
 ## Inversion: DLG
-[Deep Leakage From Gradients](https://proceedings.neurips.cc/paper/2019/file/60a6c4002cc7b29142def8871531281a-Paper.pdf) is a classical white-box data theft method. However, it's a great pity that I didn't finish it on this framework, instead, a very simply is created to reproduce the algorithm. You can check the content in `DLG.ipynb`. I will also port this to the native model later, just keep looking forward.   
+[Deep Leakage From Gradients](https://proceedings.neurips.cc/paper/2019/file/60a6c4002cc7b29142def8871531281a-Paper.pdf) is a classical white-box data theft method. However, it's a great pity that I didn't finish it on this framework, instead, a very simple network is created to reproduce the algorithm. You can check the content in `DLG.ipynb`. I will also port this to the native model later, just keep looking forward.   
 
 
 # END
